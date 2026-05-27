@@ -68,6 +68,7 @@ main {
 }
 
 .lista {
+    margin:auto;
     font-family: var(--fonte1);
     line-height: 2em;
     font-size: 1.5em;
@@ -76,9 +77,17 @@ main {
     font-weight: bold;
     padding: 20px;
 }
+.milho1 {
+    text-align: right;
+}
 
-.cordel {min-height: 500px;
-    background-image: url(../imagens/junina-4.png);
+.milho {   
+   display: block;
+   margin-left: auto;
+}
+
+.cordel {
+    min-height: 500px;
     background-position-y: -1vh; /*ajustar posição da imagem de fundo */  
     background-repeat: no-repeat;
     background-size: cover;
